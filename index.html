@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ellen Almeida" />
+    <meta name="keywords" content="viagens, experiências, turismo" />
+    <meta name="description" content="Página viagens e experiências" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Around Us – Experiências de Viagens</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          src="./images/Vector.png"
+          alt="logo do header"
+          class="header__vector"
+        />
+        <img
+          src="./images/Line.png"
+          alt="linha do header"
+          class="header__line"
+        />
+      </header>
+      <main class="content">
+        <section class="content__profile">
+          <img
+            src="./images/Avatar.png"
+            alt="Foto de Jacques Cousteau"
+            class="profile__avatar"
+          />
+          <div class="profile">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button
+              class="profile__edit"
+              aria-label="Editar perfil"
+              type="button"
+            ></button>
+            <h2 class="profile__role">Explorador</h2>
+          </div>
+          <button
+            class="profile__add"
+            aria-label="Adicionar cards"
+            type="button"
+          >
+            +
+          </button>
+        </section>
+        <section class="elements">
+          <div class="element__card">
+            <img
+              src="./images/kirill-pershin-vale-yosemite.jpg"
+              alt="Imagem do Vale Yosemite"
+              class="element__image"
+            />
+            <div class="element__places">
+              <p class="element__place">Vale de Yosemite</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="element__card">
+            <img
+              src="./images/kirill-pershin-lago-Louise.png"
+              alt="Imagem do Lago Louise"
+              class="element__image"
+            />
+            <div class="element__places">
+              <p class="element__place">Lago Louise</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="element__card">
+            <img
+              src="./images/kirill-pershin-montanha-care.png"
+              alt="Imagem da Montanha Carecas"
+              class="element__image"
+            />
+            <div class="element__places">
+              <p class="element__place">Montanhas Carecas</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="element__card">
+            <img
+              src="./images/kirill-pershin-latemar.png"
+              alt="Imagem da Montanha Latemar"
+              class="element__image"
+            />
+            <div class="element__places">
+              <p class="element__place">Latemar</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="element__card">
+            <img
+              src="./images/kirill-pershin-parque-nacional.png"
+              alt="Imagem da Montanha Parque Nacional Vanoise"
+              class="element__image"
+            />
+            <div class="element__places">
+              <p class="element__place">Parque Nacional da Vanoise</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="element__card">
+            <img
+              src="./images/kirill-pershin-lago-di-braies.png"
+              alt="Imagem do Lago Di Braies"
+              class="element__image"
+            />
+            <div class="element__places">
+              <p class="element__place">Lago di Braies</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2025 Around The U.S.</p>
+      </footer>
+    </div>
+
+    <div class="pop-up" id="edit-pop-up">
+      <div class="pop-up__container">
+        <button class="pop-up__close" aria-label="Fechar"></button>
+        <h2 class="pop-up__title">Editar perfil</h2>
+        <form class="pop-up__form">
+          <input
+            type="text"
+            class="pop-up__input"
+            name="name"
+            placeholder="Jacques Cousteau"
+            required
+          />
+          <input
+            type="text"
+            class="pop-up__input"
+            name="role"
+            placeholder="Explorador"
+            required
+          />
+          <button type="button" class="pop-up__button">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
