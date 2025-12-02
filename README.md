@@ -1,51 +1,52 @@
-✨ Around Us – Viagens & Experiências
-Uma página feita para quem ama explorar o mundo. 🌎✨
-Aqui você encontra um perfil de viajante e uma galeria com lugares incríveis para sonhar, planejar ou simplesmente admirar.
+# 🌍 Around Us – Explore o Mundo
 
-💡 O que é isso?
-É uma página web que apresenta:
+Bem-vindo ao **Around Us**, um projeto desenvolvido para quem ama viajar, descobrir novos destinos e colecionar experiências inesquecíveis.  
+Aqui você encontra um perfil de explorador e uma galeria cheia de lugares inspiradores para sonhar e planejar sua próxima aventura. ✨
 
-Um perfil estiloso do Jacques Cousteau
+---
 
-Um botão de + para adicionar novas aventuras
+### 🌟 **Funcionalidades do Site**
 
-Um pop-up para editar o perfil do explorador
+### 👤 **Perfil do Explorador**
 
-📸 Galeria de Destinos
-Você vai ver lugares como:
+- Exibição do nome e ocupação de um viajante fictício.
+- Botão para **editar perfil**, com pop-up estilizado.
+- Atualização dinâmica das informações com JavaScript.
 
-Vale de Yosemite
+### 🗺️ **Galeria de Destinos**
 
-Lago Louise
+- Cards de viagem contendo imagem + nome do local.
+- Destinos como *Yosemite Valley*, *Lago Louise*, *Bald Mountains* e muito mais.
+- Renderização dinâmica via JavaScript utilizando classes e módulos.
 
-Montanhas Carecas
+### ➕ **Adicionar Novas Aventuras**
 
-E muito mais...
+- Botão “+” estiloso (preto com borda branca).
+- Abre um pop-up para adicionar novos cards.
+- Conteúdo renderizado automaticamente no topo da galeria.
 
-Tudo com fotos bonitas e nomes fáceis de curtir e sonhar.
+---
 
-🛠 Como usar
-Baixe ou clone o projeto
+## 🛠️ **Tecnologias Utilizadas**
 
-Abra o index.html no navegador
+- **HTML5** – Estrutura da página  
+- **CSS3** – Estilização, layout responsivo e componentes  
+- **JavaScript (ES6+)** – Módulos, classes, renderização dinâmica  
+- **Normalize.css** – Padronização de estilos entre navegadores  
 
-Pronto! Explore a vibe ✨
+---
 
-🎨 Estilo do botão "+"
-O botão de adicionar novas experiências é um destaque:
+## 🎯 **Objetivos do Projeto**
 
-Fundo preto
+- Criar uma página moderna, leve e intuitiva usando boas práticas de HTML, CSS e JS.
+- Demonstrar o uso de componentes reutilizáveis (cards, pop-ups, seções).
+- Aplicar conceitos essenciais como validação de formulários e manipulação de DOM.
+- Praticar modularização de código e organização de arquivos.
 
-Borda branca
+---
 
-Símbolo + como texto
 
-Fica ainda mais legal quando você passa o mouse 😎
 
-✍️ Quer personalizar?
-Troque as imagens, mude o nome do viajante, adicione mais destinos...
-É tudo feito em HTML e CSS, fácil de brincar!
-
-🙋‍♀️ Feito por
+## 🙋‍♀️ **Feito por**
 Ellen Almeida
 Com muito carinho e vontade de viajar 💛# Tripleten web_project_around

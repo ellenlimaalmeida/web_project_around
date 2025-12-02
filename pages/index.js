@@ -10,7 +10,7 @@ import {
   editProfileForm,
   addCardForm,
   cardsContainer,
-} from "../utils.js";
+} from "../scripts/utils.js";
 
 const editProfileValidator = new FormValidator(
   validationConfig,
@@ -35,10 +35,7 @@ const handleAddCardSubmit = () => {
     link: linkInput.value,
   };
 
-  const card = new Card(cardData, "#card-template", (name, link) => {
-    imagePopup.open(name, link);
-  });
-  const cardElement = card.generateCard();
+  const cardElement = createCard(cardData);
 
   cardsContainer.prepend(cardElement);
 };
@@ -53,7 +50,7 @@ const createCard = (cardData) => {
 const section = new Section(
   {
     items: initialCards,
-    renderer: createCard,
+    renderer : createCard,
   },
   ".cards"
 );
@@ -85,6 +82,4 @@ addCardButton.addEventListener("click", () => {
   addCardPopup.open();
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  section.renderer();
-});
+ section.renderer();

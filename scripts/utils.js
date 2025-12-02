@@ -33,8 +33,8 @@ const initialCards = [
   },
 ];
 
-const editProfileForm = document.querySelector("#edit-profile-popup");
-const addCardForm = document.querySelector("#add-card-popup");
+const editProfileForm = document.querySelector("#edit-profile-popup .popup__form");
+const addCardForm = document.querySelector("#add-card-popup .popup__form");
 const cardsContainer = document.querySelector(".cards");
 
 export {
